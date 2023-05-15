@@ -10,7 +10,7 @@ const Hero = () => {
             <img className="hidden md:block w-[400px]" src="../images/hero_image.png"/>
             <div className="content pt-10 md:w-[40%]">
                 {/* <img className="absolute w-[250px] mt-9 " src="../images/Graphic.png"/> */}
-                <h1 className="text-4xl font-medium pb-5 relative md:font-semibold md:text-5xl">Bring the power of AI to your conversations</h1>
+                <h1 className="text-4xl font-medium pb-5 relative md:font-semibold md:text-5xl">Bring the power of AI to your <span className="bg-Bg_image bg-center bg-cover">conversations</span></h1>
                 <h3 className="text-2xl pb-5 ">Work Faster , Smarter, and Better Togerther</h3>
                 <p className="opacity-[] font-light pb-5">Experience the power of AI language models with OmniGPT. Our chat platform provides seamless communication across multiple channels.</p>
                 <h3 className="text-[20px] pb-5">Try the OmniGPT for free.
