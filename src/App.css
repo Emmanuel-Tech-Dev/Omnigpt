@@ -1,0 +1,29 @@
+
+:root {
+    --swiper-theme-color: #8f9399;
+  }
+
+body{
+  background: #111826;
+  font-family: 'Roboto', sans-serif;
+}
+
+.slide-container{
+  white-space: nowrap;
+  transition: transform 0.3s; 
+}
+.indicators > button {
+  margin: 2px;
+
+}
+
+
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-right: 4px;
+    border-radius: 5px;
+}
