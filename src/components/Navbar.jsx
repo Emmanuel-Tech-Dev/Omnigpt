@@ -54,7 +54,7 @@ const Navbar = () => {
                   {links.map((link)  => {
                  return (
                     
-                         <li className='text-center   flex  items-center p-5 place-content-center  my-5 bg-red-400' key={link.name}><a className='' href={link.link}>{link.name}</a></li>
+                         <li className='text-center   flex  items-center p-5 place-content-center  my-5' key={link.name}><a className='' href={link.link}>{link.name}</a></li>
                
                 )
              })}  
